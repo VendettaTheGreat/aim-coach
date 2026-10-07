@@ -32,7 +32,7 @@ A Hermes Agent profile that turns aim-coaching notes, VOD reviews, and player fe
 ## Install this profile
 
 ```bash
-hermes profile install github.com/GabrielDoesThings/aim-coach
+hermes profile install github.com/VendettaTheGreat/aim-coach
 ```
 
 That's it. The installer will:

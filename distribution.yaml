@@ -1,0 +1,10 @@
+name: aim-coach
+version: 1.0.0
+description: "Motor Learning & Aim Diagnostics AI — analyzes aim-coaching notes, VOD reviews, or player feedback, extracts the core physical errors, and builds a minimalist 1-skill-per-day weekly protocol using live KovaaK's scenario searches."
+hermes_requires: ">=0.12.0"
+author: "Gabriel"
+license: "MIT"
+env_requires:
+  - name: NOUS_API_KEY
+    description: "Nous Portal OAuth (run `hermes setup` or `hermes auth` to authenticate — no manual key needed)"
+    required: true

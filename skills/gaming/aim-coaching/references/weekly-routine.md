@@ -42,7 +42,34 @@ Difficulty and size are separate axes. The guide's Novice/Intermediate/Advanced/
 
 Selection order: (1) aim mechanic, (2) target geometry, (3) player-movement mode, (4) target size/precision, (5) speed and scenario difficulty. Change one of the last two at a time.
 
-### Coach-note scenario selection
+### Movement-pattern keyword families (target motion classification)
+
+Beyond Viscose taxonomy, classify target motion by its **kinematic pattern** — the shape of the target's trajectory through space. This is the primary axis for scenario selection because it matches the visual-motor mapping the brain must learn (specificity of practice, Schmidt 1975). The Viscose class (Arm/Wrist/Fingertip/Blending) determines which joint complex carries the movement; the movement pattern determines what that joint complex must track.
+
+| Pattern keyword | Target motion geometry | Example scenarios | Use when the in-game target... |
+|---|---|---|---|---|
+| **Leap / Leapstrafes** | Target makes discrete leaps or hops with brief airborne phases between ground contacts | `Leapstrafes Control wobin Easier`, `Leapstrafes Control Medium` | ...jumps or pounces (Mercy GA arcs, Genji Dragonblade dashes, Lucio wall-rides) |
+| **Bounce / Bounce 180** | Target follows repeated parabolic arcs (up then down, up then down) with consistent rhythm | `Bounce 180 Tracking`, `BounceSphere Intermediate` | ...bounces in a predictable arc pattern (Pharah jump-jet, Mercy GA to ally) |
+| **Strafe / Fast Strafes / Short Strafes** | Target makes sharp horizontal direction changes at ground level | `Ground Plaza Sparky v3 OW Easier`, `Close Fast Strafes Very Easy Invincible` | ...strafes left-right on the ground (standard hero movement, most OW2 fights) |
+| **Air / Angelic** | Target moves in full 3D with both horizontal and vertical components, less predictable | `Air Angelic 4 Voltaic Easy`, `Air Voltaic Easy Invincible 4 80%` | ...is airborne with combined vertical+horizontal motion (Mercy in flight, Pharah airborne) |
+| **Smooth / Smoothsphere / Whisphere** | Target follows wide, gentle arcs around the player at varying distance | `Smoothsphere Viscose Easier`, `Whisphere Viscose Easier` | ...moves in wide circles/arcs (gross trajectory demand, tension baseline) |
+| **Centering / 180** | Target circles or sweeps in a wide 180°+ arc around the player | `Centering I 180`, `Centering I 180 no strafes` | ...orbits or circles (wide-angle tracking foundation) |
+
+**Selection priority:** (1) movement pattern (what shape does the target trace?) → (2) Viscose class (which joint complex carries it?) → (3) target size/precision → (4) speed/difficulty. The movement pattern is the first filter because motor learning research shows specificity of practice: training transfers best when the practiced movement pattern matches the target task's kinematic demands (Schmidt, 1975; Shea & Kohl, 1990). Do not select a smooth-arc drill for a leap-tracking deficit; the kinematic patterns are different and transfer is limited.
+
+**Vertical isolation rule still applies:** when the error involves vertical target motion (air/bounce/leap patterns), first isolate the horizontal component with a horizontal-only variant (e.g., `Air Angelic 4 Voltaic Easy Horizontal Only`), then add the full vertical pattern. This follows the progression principle in motor learning: increase one task demand at a time.
+
+### Motor-learning science framework for aim diagnosis
+
+Aim-community terminology ("Viscose class," "tension budget," "smoothsphere") is useful as a **scenario-selection taxonomy** — it maps joint complexes to target geometry. But the diagnostic reasoning should be grounded in motor learning science, not community jargon:
+
+1. **Skill classification (Gentile, 2000):** Is the aim task *discrete* (flick, click-timing — defined start/end) or *continuous* (tracking — no clear start/end)? Mercy tracking is a **continuous visual pursuit task**. Continuous skills are controlled differently from discrete skills (PMC3773509). Do not train discrete clicking to fix a continuous tracking deficit; the motor programs differ.
+2. **Specificity of practice (Schmidt, 1975; Shea & Kohl, 1990):** Practice transfers best when the practiced movement's kinematic pattern matches the target task. Selecting a scenario whose target motion pattern matches Mercy's airborne arcs is not a buzzword choice — it's the empirically supported principle that training specificity drives transfer. A wide-arc smooth drill (Class 1) does not transfer to leap-tracking if the leap pattern is kinematically dissimilar.
+3. **Variable vs. constant practice (Schmidt, 1975; Kerr & Booth, 1978):** Varied practice (multiple scenario variants of the same pattern) builds a more generalizable motor schema than constant practice (one scenario repeated). This is why the 3-variant-per-session structure exists — it's not just "variety," it's contextual interference scheduling that promotes longer-term retention (Schmidt & Bjork, 1992). However, moderate variability is optimal; excessive variability degrades learning (inverted-U, Caballero et al., 2012).
+4. **Practice load and fatigue (McEwen & Lasley, 2002):** Training load follows an inverted-U: too little doesn't trigger adaptation, too much is detrimental. The grip ceiling and reset triggers are practical proxies for staying on the ascending side of the U. If tension accumulates across a session, the load is exceeding the learner's current capacity — reduce difficulty, not variety.
+5. **Task-oriented practice (Gentile, 2000):** Set the environment (scenario selection) so the player must produce the target movement to succeed. If the scenario allows "cheating" (wrist-chasing a wide-arc target that should be arm-carried), the environment is not providing the correct affordance for the skill being trained.
+
+**Use this framework as the diagnostic backbone; use Viscose taxonomy and aim-community terms as scenario-selection shorthand, not as the causal model.**
 
 A coach note saying “mirror” or suggesting incidental strafes does not make a task a dedicated WASD/dodge scenario. Use the new difficulty guide's Movement → Keyboard Strafes column to identify candidates for player movement, then search the exact title through KovaaK's official scenario interface and verify that the current listing actually includes player WASD/dodge. Do not infer locomotion from a moving target.
 
@@ -76,6 +103,8 @@ Before searching, check `references/scenario-cache.md` for an existing exact sce
 
 ## Session and weekly structure
 
+**Playlist naming convention:** Use a single linear Skill 1–N progression (not Week 1–N, not parallel Skill A/B tracks). Each skill builds on the previous one — master Skill N before advancing to Skill N+1. The `playlistName` inside the JSON and the filename must both use the Skill number so the progression chain is visible in-game and in the file system. Current active set: Skill 1 (Ground Reactive) → Skill 2 (Wide-Arc) → Skill 3 (Faster OW Reactive) → Skill 4 (Air Reactive) → Skill 5 (Ground Movement). KovaaK's playlists directory: `D:\SteamLibrary\steamapps\common\FPSAimTrainer\FPSAimTrainer\Saved\SaveGames\Playlists`.
+
 - A focused KovaaK's block is 15 minutes: three five-minute variations of one class only. Avoid mixing arm, wrist, and fingertip work in one session.
 - A six-focus-day rotation can alternate Class A on days 1/3/5 and Class B on days 2/4/6; day 7 is rest or low-intensity game translation. Choose A/B from the observed bottlenecks rather than automatically selecting two classes.
 - When the player already does at least 20 minutes of VAXTA, count that as the OW2 translation bridge; do not append a duplicate five-minute bridge unless requested.
@@ -85,10 +114,22 @@ Before searching, check `references/scenario-cache.md` for an existing exact sce
 - Isolate vertical/bouncing movement as flat horizontal tracking first, then add vertical demand after the horizontal version is controlled.
 - For click-timing, train smooth pre-tracking and a quiet click; do not prescribe flicking or snapping.
 
+## Long-horizon progression: form first, then overload toward transfer
+
+Treat a multi-playlist routine as a criteria-based training block, not a fixed calendar. The ultimate task goal is smooth, quick tracking/reacquisition in the user's actual game demands (for this user: Tracer target changes, varying angles, and mouse control during WASD/Blink), with practice quality preserved as demand rises. Use the user's gym/powerlifting analogy: establish a clean submaximal baseline, progressively add load, check form at each step, then test a clean high-demand performance. Easy scenarios are the entry load, not the destination.
+
+1. **Build the clean baseline:** choose a matching, manageable target geometry. Establish smooth crosshair control and light grip without body-part micromanagement. Record a small baseline: accuracy or time on target, whether misses are lag/overshoot/reacquisition, and whether tension rises.
+2. **Progressively overload one demand at a time:** when the current task stays controlled, raise target speed, acceleration, angular range, unpredictability, target precision, duration, or player movement—one variable per step. Prefer verified scenario variants that increase the intended demand while preserving task geometry. Do not assume a title suffix proves an exact setting; verify the profile or label the ordering as an interpretation.
+3. **Build specificity in stages:** controlled smooth tracking → quicker tracking in the same geometry → reactive ground reversals/angle changes → vertical demand after horizontal control → player WASD/dodge integration after stationary tracking is stable → representative VAXTA/Tracer transfer. Keep a playlist within one primary class/task focus; sequence separate playlists so each builds on demonstrated control from the prior phase.
+4. **Use form checks as gates, not speed ceilings:** progress when smoothness, accuracy, and relaxed control remain stable at the current demand. If control breaks, step back one increment, restore clean reps, and try again; don't remain at artificially slow pace once form is sound. The finish line is the fastest representative demand the player can execute cleanly, not a percentage target or high score by itself.
+5. **Make the program calendar-flexible:** advance when criteria are met, not because a week number elapsed. Recheck transfer in the game at milestones and alter only the mismatched task demand if transfer stalls.
+
 ## Grip and progression gates
 
 - Use a subjective grip ceiling of 2/10 as a simple cue, not an objective measurement. If pressure crosses 3/10, pause for three seconds, reset, and reduce task speed by 5% where the scenario supports speed control. If tension persists, stop the block rather than forcing repetitions.
-- Raise speed by 5% only after three consecutive clean two-minute runs in one session with no grip spike above 3/10.
-- Advance a skill only after three separate focus sessions at 60% target speed with grip pressure at or below 2/10, no pre-emptive bracing, and target motion feeling easy to track.
+- The endpoint is smooth AND quick tracking/reacquisition. Easier or slower variants are temporary technique launchpads, not the goal; progress toward the quickest pace at which accuracy and smooth control remain stable. Do not impose a 40–50% cap.
+- Progress within the same relevant geometry by increasing speed/difficulty one demand at a time. Sequence verified speed variants from slower to faster where the titles/settings support that order; otherwise label the progression as a coaching interpretation and do not pretend scenario names establish exact relative speeds.
+- Raise speed by 5% only after three consecutive clean two-minute runs in one session with no grip spike above 3/10; this is one optional progression check, not a mandatory pace ceiling. If control breaks, step back one increment, regain clean execution, then resume progression.
+- Advance a skill after three separate focus sessions with smooth control, no pre-emptive bracing, and target motion feeling trackable at progressively quicker pace. Use 60% only if a real scenario speed control exists or the player finds that reference useful; don't require it as an endpoint.
 - Do not claim the player can configure a percentage speed unless the scenario exposes that control. If not, use a verified easier/slower variant or describe a perceived-speed cue and label it accordingly.
 - When FFA produces low initial tension but later clenching and degraded tracking, treat the time course as evidence of accumulating load. Do not declare this proves a mechanical cause or rules out reading demands.

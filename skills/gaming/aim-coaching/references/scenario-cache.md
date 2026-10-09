@@ -66,6 +66,13 @@ See `references/past-coaching-history.md` for coaches the user has tried, their 
 - `Close FS Easy Dodge` is active. Official description: close-quarter practice against a fast-strafing bot; “Keep moving for increased score.” This includes player movement, but the exact entry is tagged as a Quake/Lightning Gun task; don't treat its target acceleration as identical to OW2 without testing.
 - `Close FS Dodge Easy` (wording/order as in some earlier local notes) was not found under that exact title; the active local playlist title to check is `Close FS Easy Dodge`.
 
+- `Close LS Easy Dodge` is active on the official listing; description: close-quarter practice against a long-strafing bot, “Keep moving for increased score.” Tracking/Reflex task with Overwatch among its tags. `Close LS Easy Dodge OW` appears as an active named variant in the official results. https://kovaaks.com/kovaaks/scenarios?scenarioName=Close%20LS%20Easy%20Dodge
+
+- `Ground Plaza Sparky v3 OW Easy` is active. Official page describes slower/thinner bots, instant ground acceleration, six profiles, 10-second TTK, 1.5-second spawn delay, and no player movement. Treat `Easier` → `Easy` as a title-based difficulty step, not a verified percentage-speed change. https://kovaaks.com/kovaaks/scenarios?scenarioName=Ground%20Plaza%20Sparky%20v3%20OW%20Easy
+
+- `Ground Plaza Voltaic Goated Easy` is an active official listing. Description: five bots with varied dodge profiles/speeds; stationary player; 10% thinner targets and shorter stops. The Jade Palace Easy benchmark places it under Reading. Use that category as a task-stress clue, not a requirement to benchmark this scenario in a routine. https://kovaaks.com/kovaaks/scenarios?scenarioName=Ground%20Plaza%20Voltaic%20Goated%20Easy
+- `Ground Plaza Sparky v3 OW Invincible 4` is an active official listing. Its page describes six ground bots with instant ground acceleration, 10-second TTK, 1.5-second spawn delay, and no player movement. User clarification: `OW` denotes Overwatch strafe physics for this family—near-instant ground acceleration and sharp velocity reversal rather than a long accel/decel ramp. This describes target physics, not player movement. https://www.kovaaks.com/kovaaks/scenarios?scenarioName=Ground%20Plaza%20Sparky%20v3%20OW%20Invincible%204
+
 ## Not yet confirmed through an official listing
 
 - Any spreadsheet-only scenario title or direct spreadsheet URL remains unverified until it appears in the official scenario interface.
@@ -73,3 +80,14 @@ See `references/past-coaching-history.md` for coaches the user has tried, their 
 ## Cache maintenance
 
 When a new official scenario lookup succeeds, add its exact title and canonical page URL to the table, summarize only observable page details, and label taxonomy-based conclusions as interpretations. If lookup fails, record it under “Not yet confirmed” rather than filling gaps from a benchmark sheet.
+
+## Live verification: wide-arc and mid-FOV variants (Oct 2026)
+
+Verified on the official scenario interface:
+- `Smoothsphere Viscose Easier` and `Smoothsphere Viscose Easier 80%`; page describes a small gently jumping dot flying around the player at varying distance/speed, with slowed acceleration and lower speed for Easier. https://kovaaks.com/kovaaks/scenarios?scenarioName=Smoothsphere%20Viscose%20Easier
+- `Whisphere Viscose Easier` and `Whisphere Viscose Easier 50%`; page describes increased minimum distance, more long-strafe patterns, and slightly slower acceleration. https://kovaaks.com/kovaaks/scenarios?scenarioName=Whisphere%20Viscose%20Easier
+- `SmoothBot Perfected Easier` and its 80%/90% variants; page describes arm aiming and 360-degree tracking through the air, no accuracy multiplier, with the base Easier profile at 90% timescale. https://kovaaks.com/kovaaks/scenarios?scenarioName=SmoothBot%20Perfected%20Easier
+- `Controlsphere SuperbAim Viscose Easier`, `... Easier 80%`, and `... Easier 90%` are active Tracking listings. https://kovaaks.com/kovaaks/scenarios?scenarioName=Controlsphere%20SuperbAim%20Viscose%20Easier
+- `Leapstrafes Control wobin Easier` and its 90% variant are active Tracking listings; description notes lower forward/back bias, friction/dodge-profile changes, and size changes. https://kovaaks.com/kovaaks/scenarios?scenarioName=Leapstrafes%20Control%20wobin%20Easier
+
+Taxonomy labels remain interpretations: Smoothsphere/Whisphere/SmoothBot are Class 1 wide-arc candidates; Controlsphere and Leapstrafes are Class 2 candidates. A title or tracking tag alone does not prove exact angle geometry or player WASD.

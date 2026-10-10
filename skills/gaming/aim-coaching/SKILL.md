@@ -48,7 +48,8 @@ For the class taxonomy, scenario search method, and routine integration, read `r
 For ground-tracking subcategories (Reading, Hybrid, Technique, Fluidity), difficulty bands, and benchmark scenario-role examples, read `references/jade-palace-ground-benchmark.md`; use it as taxonomy, not a literal playlist.
 For per-archetype scenario difficulty scaling, read `references/rank-scaled-scenario-guide.md`.
 For MattyOW's tension-budget model and speed-matching principles, read `references/mattyow-tension-management.md`.
-For reactive-tracking diagnosis and the evidence crosswalk between competing correction/target-position ideas, read `references/reactive-tracking-evidence.md`. Treat creator/video strategies as hypotheses, not player-type prescriptions. The source-specific transcript notes remain in `references/riddbtw-smooth-reactive-tracking.md`.
+For reactive tracking diagnosis and the evidence crosswalk between competing correction/target-position ideas, read `references/reactive-tracking-evidence.md`. Treat creator/video strategies as hypotheses, not player-type prescriptions. The source-specific transcript notes remain in `references/riddbtw-smooth-reactive-tracking.md`.
+For the Aim Theory & Routine Architecture Database (diagnosis-to-ladder structure, dynamic tension, core-before-reactivity progression, joint-class shorthand, source synthesis, and live scenario candidates), read `references/aim-theory-routine-architecture.md`. Use it as an architecture reference, not a fixed playlist.
 
 ## Tension management integration
 

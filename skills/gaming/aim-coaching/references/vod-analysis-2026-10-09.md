@@ -44,19 +44,21 @@
 
 **Wide-arc speed-matching (Mercy Guardian Angel).** User reports shoulder usage is not smooth on wide-arc airborne targets like Mercy GA — not good at speed-matching the arc. The FFA Tracer VOD did not capture this because Tracer fights are ground-level strafes; Mercy GA is a wide airborne arc requiring arm/shoulder to carry the sweep. This is a Class 1 deficit distinct from the Class 2 ground lag.
 
-## Updated Prescribed Plan (Oct 9 revision; naming revised Oct 10)
+## Updated Prescribed Plan (Oct 10 v3 — 7-skill course progression)
 
-**Playlist naming convention:** Single linear Skill 1–5 progression (not Week 1–5, not parallel Skill A/B tracks). Each skill builds on the previous one — master Skill N before advancing to Skill N+1. Files in KovaaK's Playlists dir: `HermesAimCoach_Skill1–5_*.json`. Playlist names inside JSON match the Skill number.
+**Playlist naming convention:** Single linear Skill 1–7 progression (not Week 1–N, not parallel Skill A/B tracks). Each skill is a course module — master Skill N before advancing to Skill N+1. Each skill builds on demonstrated control from the prior skill. Files in KovaaK's Playlists dir: `HermesAimCoach_Skill1-7_*.json`.
 
-- **Skill 1 — Ground Reactive Tracking (Class 2):** GP Sparky v3 OW Easier → GP Sparky v3 OW Easy → CFS Easy Inv 15% slower. Primary deficit: systematic tracking lag (crosshair lower-left of target).
-- **Skill 2 — Wide-Arc Speed-Matching (Class 1):** Smoothsphere Viscose Easier 80% → Smoothsphere Viscose Easier → Whisphere Viscose Easier. Secondary deficit: Mercy GA wide-arc shoulder speed-matching.
-- **Skill 3 — Faster OW Reactive (Class 2):** GP Sparky v3 OW Easy → GP Sparky v3 OW Invincible 4 → CFS Easy Invincible. Progression from Skill 1 at higher speed.
-- **Skill 4 — Air Reactive Tracking (Class 3):** Air Angelic 4 Voltaic Easy Horizontal Only → Air Voltaic Easy Invincible 4 80% → Air Voltaic Easy Invincible 4. Adds vertical target motion after horizontal control.
-- **Skill 5 — Ground Movement Tracking (Class 2 + WASD):** Close LS Easy Dodge → Close FS Easy Dodge → Close LS Easy Dodge OW. Adds player WASD movement after stationary tracking is stable.
+- **Skill 1 — Ground Smooth Tracking (NEW foundation):** SmoothBot Perfected Easier 80% → SmoothBot Perfected Easier → Smoothsphere Viscose Easier. Smooth, relaxed mouse movement on predictable targets. Prerequisite for all reactive work.
+- **Skill 2 — Ground Reactive Tracking (Class 2):** GP Sparky v3 OW Easier → GP Sparky v3 OW Easy → CFS Easy Inv 15% slower. Primary deficit: systematic tracking lag (crosshair lower-left of target, 88% right, 86% above, 0% on target).
+- **Skill 3 — Wide-Arc Speed-Matching (Class 1):** Smoothsphere Viscose Easier 80% → Smoothsphere Viscose Easier → Whisphere Viscose Easier. Secondary deficit: Mercy GA wide-arc shoulder speed-matching.
+- **Skill 4 — Faster OW Reactive (Class 2):** GP Sparky v3 OW Invincible 4 → CFS Easy Invincible OW → CFS Invincible. Full-speed ground reactive, surpassing OW2 threshold.
+- **Skill 5 — Air Smooth Arc Tracking (NEW foundation):** Air Angelic 4 Voltaic Easy Horizontal Only → PGTI Voltaic Easy Smoother → PGTI Voltaic Easy Smoother 90%. Smooth vertical arc foundation before air reactivity; tension release at arc peaks.
+- **Skill 6 — Air Reactive Tracking (Class 1/3):** Air CELESTIAL No UFO Easier Bot 3 → Air CELESTIAL No UFO Easy → Air Voltaic Easy Invincible 4 80%. Bridges smooth air to reactive air with a less-reactive transition.
+- **Skill 7 — Ground Movement Tracking (Class 2 + WASD):** Close LS Easy Dodge → Close FS Easy Dodge → Close LS Dodge. Final integration: adds player WASD movement after all stationary tracking skills are mastered.
 - **Day 7:** Active rest / OW2 VAXTA Easy bridge (5 min)
-- **Cues:** Skill 1/3: "Keep the crosshair on the target as it moves. If it falls behind, smoothly rejoin — don't snap." Skill 2: "Match the target's speed as it arcs around you — keep the crosshair moving smoothly through the whole arc, don't let it stall." Skill 4: "Stay with the target's full path — don't let the crosshair drop below." Skill 5: "Keep tracking smooth while moving — keyboard movement must not cause mouse-hand grip spikes."
+- **Cues:** Skill 1: "Keep the crosshair moving smoothly with the target — don't let it stall, don't grip tight." Skill 2/4: "Stay with the target through each direction change — smoothly rejoin, don't snap." Skill 3: "Match the target's speed as it arcs around you — keep the crosshair moving smoothly through the whole arc." Skill 5: "Release grip at the arc peak — let the mouse glide through the direction change, don't clamp." Skill 6: "Stay with the target through the air — release grip at each direction change." Skill 7: "Keep tracking smooth while moving — keyboard movement must not cause mouse-hand grip spikes."
 - **Grip ceiling:** 2/10, reset at 3/10, pause 3s + drop speed
-- **Advancement:** 3 consecutive focus days per skill, zero grip spikes, target feels visually easy
+- **Advancement:** 3 consecutive focus sessions per skill, zero grip spikes, target motion feels visually easy
 
 ## Files
 - Frames: `cache/scratch/frames/` (49 PNGs)

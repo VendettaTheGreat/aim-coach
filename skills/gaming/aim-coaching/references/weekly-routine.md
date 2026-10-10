@@ -11,7 +11,7 @@ Map by target geometry and movement demand, not by scenario title alone:
 | 3 — Fingertip/stiction | Small targets, micro-corrections, or delicate movement | Air Angelic 4 Voltaic Easy, cloverRawControl Viscose, Flower | Do not force fingertip drills when the error is primarily wide-arc geometry. |
 | 4 — Blending | Multi-joint integration after isolated gates are cleared | PGTI Voltaic Easy Smoother, Air CELESTIAL, RawControlSphere | Use PGTI only when the exact profile fits blending; many PGTI variants are jumper-target tasks, not continuous lines. Do not use as a shortcut around unresolved isolated mechanics. |
 
-Treat this as a coaching taxonomy, not a medical model. A class assignment is a training hypothesis to test, not proof of which joint the player must consciously move.
+Treat this as a coaching taxonomy, not a medical model. A class assignment is a training hypothesis to test, not proof of which joint the player must consciously move. In the three-class map used by `aim-theory-routine-architecture.md`, blending is an integration phase across Classes 1–3, not a fourth anatomical class; keep it out until the relevant isolated movement demands are stable.
 
 ## Task separation and difficulty-scaled reference
 
@@ -57,7 +57,7 @@ Beyond Viscose taxonomy, classify target motion by its **kinematic pattern** —
 
 **Selection priority:** (1) movement pattern (what shape does the target trace?) → (2) Viscose class (which joint complex carries it?) → (3) target size/precision → (4) speed/difficulty. The movement pattern is the first filter because motor learning research shows specificity of practice: training transfers best when the practiced movement pattern matches the target task's kinematic demands (Schmidt, 1975; Shea & Kohl, 1990). Do not select a smooth-arc drill for a leap-tracking deficit; the kinematic patterns are different and transfer is limited.
 
-**Vertical isolation rule still applies:** when the error involves vertical target motion (air/bounce/leap patterns), first isolate the horizontal component with a horizontal-only variant (e.g., `Air Angelic 4 Voltaic Easy Horizontal Only`), then add the full vertical pattern. This follows the progression principle in motor learning: increase one task demand at a time.
+**Vertical/core-first rule:** when the error involves vertical target motion, use a horizontal-only air variant first only as an isolate/baseline. Then build predictable, smooth vertical arc tracking before adding reactive direction changes. Scale speed within the same verified geometry (e.g., exact title-labeled 80% → 90% → base variants when available); add a reactive-air layer only after the core arc is controlled. This keeps the vertical movement signal clear before adding unpredictability. See `references/aim-theory-routine-architecture.md`.
 
 ### Motor-learning science framework for aim diagnosis
 
@@ -111,7 +111,7 @@ Before searching, check `references/scenario-cache.md` for an existing exact sce
 - On FFA/QP days, favor the game session plus the player's normal VAXTA warm-up over extra KovaaK's, especially if tension has been building. Do not make a missed KovaaK's block a catch-up obligation.
 - If a player says tension increases as a match progresses, test shorter blocks with hands-off breaks and record when the clenching begins. End the block if it returns quickly; don't train through deteriorating control.
 - For Tracer/game transfer, check that mouse-hand tension does not spike during WASD, Blink, or target changes. Avoid asking the player to consciously route each joint at once.
-- Isolate vertical/bouncing movement as flat horizontal tracking first, then add vertical demand after the horizontal version is controlled.
+- For a vertical/bouncing deficit, use flat horizontal tracking only as an isolation baseline, then establish smooth predictable vertical arcs before adding reactive direction changes. Keep the practiced arc geometry through the reactive step.
 - For click-timing, train smooth pre-tracking and a quiet click; do not prescribe flicking or snapping.
 
 ## Long-horizon progression: form first, then overload toward transfer
@@ -120,7 +120,7 @@ Treat a multi-playlist routine as a criteria-based training block, not a fixed c
 
 1. **Build the clean baseline:** choose a matching, manageable target geometry. Establish smooth crosshair control and light grip without body-part micromanagement. Record a small baseline: accuracy or time on target, whether misses are lag/overshoot/reacquisition, and whether tension rises.
 2. **Progressively overload one demand at a time:** when the current task stays controlled, raise target speed, acceleration, angular range, unpredictability, target precision, duration, or player movement—one variable per step. Prefer verified scenario variants that increase the intended demand while preserving task geometry. Do not assume a title suffix proves an exact setting; verify the profile or label the ordering as an interpretation.
-3. **Build specificity in stages:** controlled smooth tracking → quicker tracking in the same geometry → reactive ground reversals/angle changes → vertical demand after horizontal control → player WASD/dodge integration after stationary tracking is stable → representative VAXTA/Tracer transfer. Keep a playlist within one primary class/task focus; sequence separate playlists so each builds on demonstrated control from the prior phase.
+3. **Build specificity in stages:** controlled smooth core movement in the geometry that matches the diagnosed deficit (for a vertical deficit: horizontal baseline → smooth vertical arcs) → quicker tracking in that same geometry → reactive direction changes in that geometry → player WASD/dodge integration after mouse-only tracking is stable → representative game transfer. Keep a playlist within one primary class/task focus; sequence separate playlists so each builds on demonstrated control from the prior phase.
 4. **Use form checks as gates, not speed ceilings:** progress when smoothness, accuracy, and relaxed control remain stable at the current demand. If control breaks, step back one increment, restore clean reps, and try again; don't remain at artificially slow pace once form is sound. The finish line is the fastest representative demand the player can execute cleanly, not a percentage target or high score by itself.
 5. **Make the program calendar-flexible:** advance when criteria are met, not because a week number elapsed. Recheck transfer in the game at milestones and alter only the mismatched task demand if transfer stalls.
 

@@ -48,7 +48,7 @@
 
 **Playlist naming convention:** Single linear Skill 1–7 progression (not Week 1–N, not parallel Skill A/B tracks). Each skill is a course module — master Skill N before advancing to Skill N+1. Each skill builds on demonstrated control from the prior skill. Files in KovaaK's Playlists dir: `HermesAimCoach_Skill1-7_*.json`.
 
-- **Skill 1 — Ground Smooth Tracking (NEW foundation):** SmoothBot Perfected Easier 80% → SmoothBot Perfected Easier → Smoothsphere Viscose Easier. Smooth, relaxed mouse movement on predictable targets. Prerequisite for all reactive work.
+- **Skill 1 — Ground Smooth Tracking (NEW foundation):** Wide Wall Pasu Smooth Easy → Centering I Easy → Thin Gauntlet Easy. Smooth, relaxed mouse movement on predictable GROUND targets with low reactivity. Prerequisite for all reactive work.
 - **Skill 2 — Ground Reactive Tracking (Class 2):** GP Sparky v3 OW Easier → GP Sparky v3 OW Easy → CFS Easy Inv 15% slower. Primary deficit: systematic tracking lag (crosshair lower-left of target, 88% right, 86% above, 0% on target).
 - **Skill 3 — Wide-Arc Speed-Matching (Class 1):** Smoothsphere Viscose Easier 80% → Smoothsphere Viscose Easier → Whisphere Viscose Easier. Secondary deficit: Mercy GA wide-arc shoulder speed-matching.
 - **Skill 4 — Faster OW Reactive (Class 2):** GP Sparky v3 OW Invincible 4 → CFS Easy Invincible OW → CFS Invincible. Full-speed ground reactive, surpassing OW2 threshold.

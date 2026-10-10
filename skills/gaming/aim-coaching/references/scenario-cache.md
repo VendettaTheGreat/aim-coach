@@ -89,7 +89,7 @@ See `references/past-coaching-history.md` for coaches the user has tried, their 
 
 Restructured from 5 skills to 7 skills after user feedback: each skill was missing a transition/foundation phase. Ground reactive jumped to reactive without a smooth tracking prerequisite; air reactive jumped to full reactive without a less-reactive bridge. New structure adds two new foundation skills:
 
-- **Skill 1 — Ground Smooth Tracking (NEW):** SmoothBot Perfected Easier 80% → SmoothBot Perfected Easier → Smoothsphere Viscose Easier. Establishes smooth, relaxed mouse movement on predictable targets before adding reactivity.
+- **Skill 1 — Ground Smooth Tracking (NEW):** Wide Wall Pasu Smooth Easy → Centering I Easy → Thin Gauntlet Easy. Smooth, relaxed mouse movement on predictable GROUND targets with low reactivity. Wide Wall Pasu Smooth Easy = big bot, slow, invincible, ground (Tracking, Fundamentals/PureG, 4,289 entries); Centering I Easy = mid-range long strafe, ground smooth (131K entries, Smoothness); Thin Gauntlet Easy = thin targets, long strafes, 75% speed (80K entries, Smoothness/OW).
 - **Skill 2 — Ground Reactive Tracking:** GP Sparky v3 OW Easier → GP Sparky v3 OW Easy → CFS Easy Invincible 15% slower. Adds reactive direction changes to ground targets with OW2 physics.
 - **Skill 3 — Wide-Arc Speed Matching:** Smoothsphere Viscose Easier 80% → Smoothsphere Viscose Easier → Whisphere Viscose Easier. Arm/shoulder wide-arc speed matching at progressively faster speeds.
 - **Skill 4 — Faster OW Reactive:** GP Sparky v3 OW Invincible 4 → CFS Easy Invincible OW → CFS Invincible. Full-speed ground reactive, surpassing OW2 ground tracking threshold.

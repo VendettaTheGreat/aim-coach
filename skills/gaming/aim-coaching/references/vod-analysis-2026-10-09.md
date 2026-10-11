@@ -48,7 +48,7 @@
 
 **Playlist naming convention:** Single linear Skill 1–7 progression (not Week 1–N, not parallel Skill A/B tracks). Each skill is a course module — master Skill N before advancing to Skill N+1. Each skill builds on demonstrated control from the prior skill. Files in KovaaK's Playlists dir: `HermesAimCoach_Skill1-7_*.json`.
 
-- **Skill 1 — Ground Smooth Tracking (NEW foundation):** Centering I Easy → GP Close Long Strafes Easy → Thin Gauntlet Easy. Smooth, relaxed mouse movement on predictable GROUND targets with long strafes and low reactivity. Prerequisite for all reactive work.
+- **Skill 1 — Ground Smooth Tracking (NEW foundation):** Centering I Easy → gp close long strafes easy invincible → Thin Gauntlet Easy. Smooth, relaxed mouse movement on predictable GROUND targets with long strafes and low reactivity. Prerequisite for all reactive work. User feedback (Oct 11): `GP Close Long Strafes Easy` (non-invincible) caused reacquisition tension that bled into the next bot's tracking after bot death; swapped to `gp close long strafes easy invincible` (same geometry, no bot death). First in-game transfer signal came from Centering I Easy and Thin Gauntlet Easy.
 - **Skill 2 — Ground Reactive Tracking (Class 2):** GP Sparky v3 OW Easier → GP Sparky v3 OW Easy → CFS Easy Inv 15% slower. Primary deficit: systematic tracking lag (crosshair lower-left of target, 88% right, 86% above, 0% on target).
 - **Skill 3 — Wide-Arc Speed-Matching (Class 1):** Smoothsphere Viscose Easier 80% → Smoothsphere Viscose Easier → Whisphere Viscose Easier. Secondary deficit: Mercy GA wide-arc shoulder speed-matching.
 - **Skill 4 — Faster OW Reactive (Class 2):** GP Sparky v3 OW Invincible 4 → CFS Easy Invincible OW → CFS Invincible. Full-speed ground reactive, surpassing OW2 threshold.
@@ -65,3 +65,16 @@
 - Analysis JSON: `cache/scratch/frame_analysis.json`
 - Subagent transcripts: `cache/delegation/live/deleg_c80f9514/`
 - Video: `cache/scratch/ffa_tracer_vod.mp4` (360p, 93MB)
+
+## Progress Log
+
+### Oct 11, 2026 — First in-game transfer signal (Skill 1) + user-driven Skill 1 revision
+- **Session:** Skill 1 Ground Smooth Tracking (Centering I Easy → GP Close Long Strafes Easy → Thin Gauntlet Easy), ~35 min KovaaK's + VAXTA on VXEAT map (easy strafes, tried to speed up).
+- **Transfer:** User reports tracking felt "less effortful / less tense overall" in-game after the session — the first in-game transfer from any coaching approach after months of failed transfer with Serf, PSEV, 4BK, Shotty, Bobo, Shah.
+- **Grip:** Mostly calm (≤2/10), a few spikes but user could reset quickly. Not yet zero-spike across a full session.
+- **Scores:** No PBs yet. Thin Gauntlet Easy came close: 895 vs 896 PB from 2022.
+- **Key user insight — speed-matching is multi-dimensional:** User corrected the Skill 1 framing from "smooth tracking" (one-dimensional, slow) to "speed-matching across a range of speeds." Speed-matching has layers: slow, fast, ground, air. The foundation should train across the range, not just at the slow end, so the base carries into reactive (Skill 2). "The idea is to be smooth but fast cause that way you can translate the skills to reactive better as you'll be able to pick up the pace."
+- **GP Close Long Strafes Easy diagnosed:** The bot makes the same strafe at the same speed every time — no tension-transition practice. The reacquisition tension after bot death bled into the next bot's tracking. But the bot death isn't the problem — the lack of variable speed is. The invincible variant was tried and rejected: same strafe, same speed, same tension profile = monotonous, no skill growth.
+- **VSS (Variable Speed Strafes) identified by user:** Scenarios where the bot changes its strafe SPEED, forcing the player to read velocity and match tension dynamically. Smooth/non-reactive = the bot changes speed, not direction abruptly, giving processing time to feel and calibrate tension level. This is the speed-matching foundation that carries into reactive.
+- **Skill 1 REVISED:** Centering I Easy (slow baseline, one speed) → VSS Close-Mid Long (variable speed, ground, smooth) → Thin Gauntlet Easy (variable speed + precision). Spans the speed-matching range from constant → variable → variable + precision. Playlist updated and verified.
+- **Assessment:** Foundation is working but not fully automatic (grip spikes remain). Advancement gate not yet met (needs 3 consecutive sessions with grip ≤2/10 and zero spikes + speed-matching feels calibrated). Plan: 2 more Skill 1 sessions with revised playlist to lock the foundation, then advance to Skill 2 (Ground Reactive). Do not add reactivity until the speed-matching foundation requires zero conscious grip management.

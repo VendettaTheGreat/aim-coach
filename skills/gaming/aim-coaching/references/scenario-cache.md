@@ -127,6 +127,16 @@ Scenarios MattyOW selected or demonstrated during subscriber routine building. V
 - `Aether Control Easy`: No results on kovaaks.com for "Aether Control" or "Aether Control Easy." Matty referenced it on stream as "feels pristine" for fingertip control. May be a private/playlist scenario or have a different exact title. Status: unverified.
 - `Reflex Flow`: No results on kovaaks.com for "Reflex Flow." Matty referenced it as a reflex/click scenario. May be private or have a different name. Status: unverified.
 - `Bounce Sphere Shotgun`: No results on kovaaks.com. Matty referenced it on stream. May be private or differently named. The broader "Bounce Sphere" search returned only `DVD Bounce Sphere Invincible` (56 entries). Status: unverified.
+- `Swab Track` / `Stick Track` (from VOD review section): No exact match on kovaaks.com. Transcribed via faster-whisper (tiny model) from the tail section — likely a transcription error. May be "Pasu Track Smooth" (129K entries, Smoothness) or "SmoothTrack SuperbAim Easy" (19K entries, Tracking). Matty described it as "such a good scenario" for smoothness/excel reading. Status: unverified, candidate scenarios identified.
+- `Lay a Sphere` (from VOD review section): No results. Transcribed via faster-whisper — likely garbled. May be a reference to a sphere-type scenario for learning snappy reactions vs no-movement decisions. Status: unverified, transcription likely unreliable.
+
+### Additional scenarios from VOD review section (1:38–2:18)
+
+Scenarios Matty referenced during the live VOD review portion. Verified on kovaaks.com where possible.
+
+- `Pasu Track Smooth`: 129,410 entries, Smoothness, by (various). Pasu arc tracking with smooth physics. Family: Pasu Track Invincible v2 (88,924 entries), Pasu Track Invincible Small v2 (44,247), Pasu Track Smaller rAim (29,564), Pasu Track Smooth extra small (23,902), Pasu Track Extrasmooth TE (18,894), Pasu Track Wide React (13,966). https://kovaaks.com/kovaaks/scenarios?scenarioName=Pasu%20Track%20Smooth
+- `SmoothTrack SuperbAim Easy`: 19,438 entries, Tracking, by (various). Smooth tracking foundation. Family: SmoothTrack SuperbAim Very Easy (9,625), SmoothTrack SuperbAim (5,842), CB SmoothTrack Easy (12,882). https://kovaaks.com/kovaaks/scenarios?scenarioName=SmoothTrack%20SuperbAim%20Easy
+- `SwapTrack`: 45 entries, Other/Lightning Gun, by hisokissa, published 5/29/2023. Description: "lgc3 with some changes." Small-entry niche scenario. https://kovaaks.com/kovaaks/scenarios?scenarioName=SwapTrack
 
 Files: All 7 playlists in D:\SteamLibrary\steamapps\common\FPSAimTrainer\FPSAimTrainer\Saved\SaveGames\Playlists\ with prefix HermesAimCoach_Skill1-7_*.json. Old 5-skill files deleted.
 

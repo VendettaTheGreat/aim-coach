@@ -168,3 +168,63 @@ Frames extracted at key coaching moments from the 720p VOD:
 **Why Skill 1 foundation work is more important than it appeared:** It's not just training speed-matching mechanics — it's training **accurate speed perception in a clean environment** so the calibrated perception resists the in-game overload. The Skill 1 → Skill 2 → in-game progression should be understood as **progressively adding perceptual load**, not just reactivity or speed. The foundation builds the perceptual baseline that makes the in-game perception tax survivable.
 
 **Revised cue for Skill 1 scenarios:** "The movement is slower than it feels — match it with tension, not speed. If you feel your grip tighten, the target didn't get faster, your perception did."
+
+---
+
+## 11. VOD Review Section — Wrist Pivot, Edge Tracking, Excel Reading (1:38–2:18) [NEW]
+
+Extracted from the tail end of the VOD (transcribed locally via faster-whisper, tiny model). Matty switched from routine building to live VOD review of subscriber gameplay.
+
+### 11a. Wrist Pivot Exhaustion — Carfishtailing [NEW]
+
+**Diagnosis (1:40–1:43):** When you run out of comfortable pivot space for your wrist, your upper wrist moves with a **delay** — like a car fishtailing. The pivot area moves ahead of where your wrist is supposed to be. This makes it much harder to initiate your next motion — you get stuck.
+
+**Mechanism:** You're initiating each micro correction with just your wrist, and your forearm isn't providing enough support. Instead of giving more support, you're just anti-mirroring the bot. When the wrist runs out of pivot space, the upper wrist lags — creating a "speed bump" effect where smooth tracking suddenly skips a large distance.
+
+**Anatomical limit:** Don't bend your wrist inward/laterally to the point where you get stuck — anatomically your wrist can't go farther than that. This is a range-of-motion ceiling, not a tension issue. Lay the hand cam and watch if upper-wrist-initiated movement is happening.
+
+**Exception (high-level only):** It's okay to do this when predicting a juke in AirVoltaic Invincible — you can do a half-reaction with wrist rotation as a faked read, then full-react. But this is advanced and only for predicted jukes, not general tracking.
+
+### 11b. Edge Tracking — Ease Back Into the Edge [NEW]
+
+**Concept (1:46–1:47):** Don't snap on bots. When the bot changes direction, you want to **ease back into the edge.** Edge tracking = you're right here on the edge of the target, and when it changes direction, ease back into the edge. Don't snap — ease.
+
+**Ricky (Hydrobody) is the best edge tracker in KovaaK's** — the smoothest edge tracker. He overcame a little bit and then eased back to the edge.
+
+**Perception connection (1:46):** When the bot comes close to you, the movement doesn't change — it just **looks faster because it's closer.** You don't need to give more attention to your wrist. You should be happy the bot is coming close, not panicking. Keep the same tension — don't dramatize the approach.
+
+### 11c. Commit to the Correction — No Stutter [NEW]
+
+**Diagnosis (1:52–1:53):** Commit to the correction more. You begin the correction and then **stutter as you end it.** Commit to just one smooth correction. Frame-by-frame, there's a big overaim movement — you're tracking smoothly then hitting a "speed bump" at the wrist pivot point where you skip a large distance.
+
+### 11d. Floaty Flicks — Lack of Urgency and Decisiveness [NEW]
+
+**Diagnosis (1:55–2:01):** People in static these days have floaty flicks — instead of one decisive flick onto the target, you're flowing. Not playing with urgency, not prioritizing speed in flicks.
+
+**Always remember to micro (1:56):** After you flick, always actively confirm whether you're on target. Don't slow down, land up here, then micro — why do you slow down then micro? You should micro as part of the flick, not as a separate delayed step.
+
+**Peripheral vision setup (1:59–2:01):** Use peripheral vision to inform you of what targets are in a favorable position/strafe, then flick ahead of that strafe. Don't look lost between targets — floating, chasing. Choose a target decisively, commit to it, then flick. Don't float around the bot.
+
+### 11e. Excel Reading — Bot Excel/Acceleration Movement [NEW]
+
+**Diagnosis (2:08–2:12):** You're not paying attention to the excel at all. When playing a precision scenario, don't just have a binary on/off for left/right. Pay attention to **at what speed the bot is changing direction**, what speed the bot is moving, and **recognize when it begins to slow down.** It's not always uniform — sometimes they slow down at different points, and you have to notice that.
+
+**Distance perception at excel (2:11–2:12):** When the bot excels away from you, it looks smaller on screen. A wide movement that would normally hit at close range will **cross over** the bot at distance because the angular distance is smaller. You need to engage more fingertips for the smaller angular correction — sticking with upper wrists and arm causes crossover.
+
+**Prescription (2:12):** Swab Track (Amers) for struggling with speed matching — but the real issue is Excel reading. Play the week five version. If still struggling, play Smooth Sphere.
+
+### 11f. Swab Track / Stick Track [NEW]
+
+**Prescription (2:06–2:08):** If fundamentally weak smoothness: play Swab Track first, then play Smoothbot at high sens. Swab Track → high-sens Smoothbot. Space management is okay; the real issue is smoothness.
+
+**"Such a good scenario" (2:07):** Swab Track / Stick Track — if you just sit on this scenario for six hours, you're bound to PB. The issue is you're just not paying attention to the excel at all.
+
+### 11g. Arm-Initiated Flicks [NEW]
+
+**Principle (2:11–2:15):** Initiate flicks with the upper arm — yes, that's expected. When talking about arm aiming, Matty includes both above and below the elbow. Better flicking technique comes from using your arm to initiate the flick, not just wrist.
+
+### 11h. Diminishing Returns on Aim Training [NEW]
+
+**Matty's take (1:50–1:51):** Diminishing returns don't hit until Astro rank (beyond Nova/Celestial). Below that, aim training still improves. Beyond Celestial, it becomes score farming. For pure-aim players (like Matty), any aim improvement IS playstyle improvement — no diminishing returns because aim IS the playstyle.
+
+**Aim trainers replicate the exact motion relationship** that exists when you play any aim character in Overwatch. You over-prepare for in-game situations so you're better equipped and feel more comfortable.

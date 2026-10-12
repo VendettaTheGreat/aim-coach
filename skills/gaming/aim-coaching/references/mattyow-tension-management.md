@@ -74,6 +74,29 @@ MattyOW frames tension as a **budget**, not a binary on/off:
 - Requires **road-mapping** (looking 2-3 targets ahead), **flick consciousness** (knowing where your crosshair landed), and **cluster farming technique** (smoothly handling closely-spaced targets).
 - Fluidity is a whole-gameplay characteristic, not just an aiming technique — it describes entering flow state.
 
+## Perception Overreaction — Root Cause of Tension Overshoot
+
+Tension spikes can be downstream of **perceptual overload**, not a pure mechanical deficit. In-game visual complexity (abilities, effects, unpredictable movement) makes target speed feel faster than it is → the player tenses to match the *perceived* (not actual) speed → grip spike. A clean environment (VAXTA, KovaaK's) removes the perceptual load so tension matches accurately — the contrast between "VAXTA feels easy" and "in-game feels hard" is itself the diagnostic signal. The fix is not just "release tension" — it is recognizing the movement is slower than it feels and the task is fingertip-controllable. At high sensitivity, tension spikes produce amplified crosshair displacement (~1.8x at 20cm/360 vs 34cm), so perception accuracy is amplified stakes.
+
+Matty's aim-component breakdown: ~50% mental, ~20% perception, ~30% mechanical. Do not treat a tension problem as purely mechanical without checking whether perception overload is upstream.
+
+## Fingertip vs. Upper Muscle — Space Exhaustion Cascade
+
+When a player runs out of mouse pad space during micro corrections, the body engages an **upper muscle group** (wrist/forearm) to compensate — producing a burst of speed that returns the crosshair to target but without stabilization or fingertip control. The fix is **sensitivity-driven**: increase sensitivity so fingertips are forced into the equation (larger muscle groups cannot make fine adjustments at high sens). This is distinct from tension management — it is a mechanical cascade (space exhaustion → upper muscle → burst without control → instability), not a tension-budget problem.
+
+When a player first tries to engage fingertips more at higher sens, they will look slightly more hesitant getting on target. This is an adaptation phase, not regression.
+
+## Sensitivity as a Coaching Tool
+
+Sensitivity adjustment is an active diagnostic intervention, not just personal preference:
+- **Increase** to force fingertip usage when hand cam shows micros are not fingertip-initiated.
+- **Decrease** for scenarios that demand more pad space (e.g., Smoothbot at low sens = "genuine infinite mouse pad space").
+- The player's **neutral reset position on the pad** matters — if it is already near the edge, there is less room before deviation becomes a problem.
+
+## Movement-Compounded Overaim
+
+Player WASD movement during a micro correction **adds to the aim distance**: a lateral step while correcting onto a target means the crosshair traverses correction distance + step distance. The fix is positioning before the engagement, not during it — do not put yourself where you must ulnar-deviate to make the shot.
+
 ## Applying this model to a player's report
 
-If a player reports tension rising over a match, finger clenching, and tracking deterioration, describe this as **consistent with accumulating load/tension**, not proof of MattyOW's exact mechanism. Do not infer which muscle group is depleted, that tension was not released, or that the player uses only one muscle group from those observations alone. Use clenching as a practical signal to pause/reset and compare when it begins across controlled sessions. Consider other contributors such as overall fatigue, attention, task difficulty, and match stress. The tension-budget model can inform a simple cue, but do not prescribe conscious multi-joint routing.
+If a player reports tension rising over a match, finger clenching, and tracking deterioration, describe this as **consistent with accumulating load/tension**, not proof of MattyOW's exact mechanism. Do not infer which muscle group is depleted, that tension was not released, or that the player uses only one muscle group from those observations alone. Use clenching as a practical signal to pause/reset and compare when it begins across controlled sessions. Consider other contributors such as overall fatigue, attention, task difficulty, and match stress. The tension-budget model can inform a simple cue, but do not prescribe conscious multi-joint routing. Check for perception overload upstream before attributing the tension to a purely mechanical cause.

@@ -108,22 +108,24 @@ Two possible reasons a scenario is difficult for a player:
 
 ## 7. Scenario Selections for This Subscriber (Murti, Fortnite)
 
-Playlist: "Murubi Subscriber Playlist 10" by VT MattyOW
+Playlist: "Murubi Subscriber Playlist 10" by VT MattyOW (share code: KovaaKsPullingBadPistol)
 
 | Position | Scenario | Purpose |
 |---|---|---|
-| 1 | Aether Control Easy | Fingertip control, "feels pristine," for control foundation |
-| 2 | Crack High Arc Tracking | Verticality/arc for Fortnite jump movement, fire rate encourages smoothness |
-| 3 | Bounce Sphere (Clover variant) | Bounce pattern for Fortnite jump/leap movement |
-| 4 | Air Dodge TS | Angle work |
-| 5 | Air AIO Angelic Dodge | Distant scenario, player controls spacing, bot follows |
-| 6 | Bounce Sphere Shotgun | Shotgun-style tracking |
-| 7 | Reflex Flow | Reflex/click — can be pure-flicked or done with control |
-| 8 | (Clicking scenario — ski clicking type) | Prevents shot leaking/overaim by not allowing leads |
+| 1 | Aethercontrol Easy | Fingertip control, "feels pristine," for control foundation (by tanuki0001, 3,341 entries) |
+| 2 | Pasu Track Invincible v2 | Arc tracking for Fortnite jump movement (88,924 entries) |
+| 3 | krak high arc tracking | Verticality/arc for Fortnite jump movement, fire rate encourages smoothness (not in official DB, confirmed in screenshot) |
+| 4 | BounceSphere Goated Easy | Bounce pattern for Fortnite jump/leap movement (by Hydroboy, 49 entries, "somewhat pgti-like") |
+| 5 | Air AIO Angelic Dodge | Distant scenario, player controls spacing, bot follows (not in official DB, confirmed in screenshot) |
+| 6 | ethCore 1w1t reflex speed | Reflex/speed — 1-wall-1-target reflex (by ethCore, 194 entries) |
+| 7 | Microshot Speed | Micro-level clicking, fast movements preserving micro precision (136,628 entries) |
+| 8 | e1se Reflex Flick EASY | Reflex flick — "Fair scaled down so you don't have to move your aim as far" (by e1se, 13,188 entries) |
+| 9 | beanClick 200% Speed | Clicking at 200% speed — prevents shot leaking/overaim by not allowing leads (not in official DB, confirmed in screenshot) |
 
 **Note on playstyle (1:15:36, 1:29:30):**
 - Don't play with "classic aim trainer control" — almost MBM it even on scored scenarios.
 - **"Bardoz tech flicks"** = controlled flicks with time. **"Full flicking"** = pure speed. Bardoz method fails on scenarios that demand more time — know when each applies.
+- **Corrected from playlist screenshot:** Earlier transcript versions garbled several scenario names ("Aether Control Easy" → Aethercontrol Easy, "Crack High Arc Tracking" → krak high arc tracking, "Bounce Sphere Shotgun" → BounceSphere Goated Easy, "Reflex Flow" → not a real scenario). Always cross-check transcript-derived scenario names against the actual playlist.
 
 ---
 
@@ -211,13 +213,11 @@ Extracted from the tail end of the VOD (transcribed locally via faster-whisper, 
 
 **Distance perception at excel (2:11–2:12):** When the bot excels away from you, it looks smaller on screen. A wide movement that would normally hit at close range will **cross over** the bot at distance because the angular distance is smaller. You need to engage more fingertips for the smaller angular correction — sticking with upper wrists and arm causes crossover.
 
-**Prescription (2:12):** Swab Track (Amers) for struggling with speed matching — but the real issue is Excel reading. Play the week five version. If still struggling, play Smooth Sphere.
+**Prescription (2:12):** Matty prescribed a smoothness/excel-reading scenario for struggling with speed matching. The exact scenario name was garbled in transcription (heard as "Swab Track" / "Stick Track" — not a real scenario name). The actual playlist does not contain a scenario by this name; the prescription was likely general guidance to play a smoothness-focused tracking scenario. If still struggling, play Smoothsphere.
 
-### 11f. Swab Track / Stick Track [NEW]
+### 11f. Smoothness Prescription (garbled as "Swab Track / Stick Track") [CORRECTED]
 
-**Prescription (2:06–2:08):** If fundamentally weak smoothness: play Swab Track first, then play Smoothbot at high sens. Swab Track → high-sens Smoothbot. Space management is okay; the real issue is smoothness.
-
-**"Such a good scenario" (2:07):** Swab Track / Stick Track — if you just sit on this scenario for six hours, you're bound to PB. The issue is you're just not paying attention to the excel at all.
+**Prescription (2:06–2:08):** If fundamentally weak smoothness: play a smoothness-focused tracking scenario first, then play Smoothbot at high sens. The real issue is smoothness, not space management. Matty raved about this scenario type (transcription garbled the exact name — not a real scenario called "Swab Track" or "Stick Track"). The concept: if you just sit on a smoothness scenario for extended time, you're bound to PB. The issue is you're just not paying attention to the excel (acceleration/deceleration) at all.
 
 ### 11g. Arm-Initiated Flicks [NEW]
 

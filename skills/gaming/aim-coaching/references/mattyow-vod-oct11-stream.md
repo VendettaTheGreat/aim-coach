@@ -145,3 +145,26 @@ Frames extracted at key coaching moments from the 720p VOD:
 - [49:10] VT Controlsphere Novice S5 Far — active scenario with 69.5% accuracy, hand cam showing the player's grip during the perception-overreaction discussion.
 - [1:11:18] Fortnite gameplay VOD review — player ulnar-deviated on pad, wrist-oriented movement onto target.
 - [1:12:48] Fortnite gameplay — overaim compounded by lateral player movement during micro correction.
+
+---
+
+## 10. Application to This Player (Gabriel, 20cm/360, Wallhack SP-004)
+
+**Sensitivity context:** At 20cm/360, the space-exhaustion cascade (§1) does NOT apply — the player is already at a sensitivity where fingertips are forced into micro corrections and pad space is not the constraint. However, the perception-overreaction finding (§2) applies with **amplified stakes**:
+
+- At 20cm/360, 1mm of jitter = ~18° of crosshair displacement. At the subscriber's 34cm, the same 1mm = ~10.6°. Tension spikes produce nearly **double** the crosshair displacement per unit of tension compared to the diagnosed player.
+- **The grip spike is amplified by sensitivity, not caused by it.** The root cause is perceptual: in-game visual complexity (abilities, effects, unpredictable movement) makes target speed feel faster than it is → upper-hand tension → grip spike → amplified displacement at 20cm.
+
+**Diagnostic insight (user-reported, Oct 11):** "Targets in VAXTA (a controlled environment) feel much easier to aim at — in-game, players are actively using their abilities." This is the perception-overreaction pattern Matty described (§2): VAXTA = clean perception → accurate speed judgment → tension matches → no spike. In-game = cluttered perception → speed overestimate → tension overshoot → grip spike → amplified at 20cm → tracking degrades.
+
+**Revised diagnosis chain:**
+1. In-game visual complexity overloads perception (not a mechanical deficit).
+2. Target speed is misperceived as faster than it is.
+3. Upper-hand tension increases to match the *perceived* (not actual) speed.
+4. Grip spike at 20cm/360 → ~1.8x crosshair displacement vs lower-sens players.
+5. Tension doesn't fully release between encounters → budget drains over the match.
+6. Tracking degrades as budget depletes — but the root cause was perceptual overload, not mechanical failure.
+
+**Why Skill 1 foundation work is more important than it appeared:** It's not just training speed-matching mechanics — it's training **accurate speed perception in a clean environment** so the calibrated perception resists the in-game overload. The Skill 1 → Skill 2 → in-game progression should be understood as **progressively adding perceptual load**, not just reactivity or speed. The foundation builds the perceptual baseline that makes the in-game perception tax survivable.
+
+**Revised cue for Skill 1 scenarios:** "The movement is slower than it feels — match it with tension, not speed. If you feel your grip tighten, the target didn't get faster, your perception did."

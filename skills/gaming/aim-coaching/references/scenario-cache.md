@@ -145,6 +145,28 @@ Scenarios from MattyOW's subscriber routine "Murubi Subscriber Playlist 10" (sha
 - `Swab Track` / `Stick Track` / `Lay a Sphere` → NOT scenario names; garbled speech from whisper-tiny transcription
 - `bot six` / `blinking bots` → NOT scenario names; bot behavior descriptions
 
+### Movement compensation scenarios (cached Oct 11, for Skill 7 diagnostic)
+
+Scenarios for isolating movement-aim compensation deficits. Cached for future use when Skill 7 (Ground Movement) is reached or if movement compensation is diagnosed earlier.
+
+**Pole Long Dodge family (stationary target + player strafes — isolates player-movement drift):**
+
+- `Pole Long Dodge`: 305,297 entries, Tracking, by patys, published 8/25/2019. Description: "Track the bot the best you can while long strafing." Stationary target, player long-strafes. Every crosshair drift is from the player's own movement. The base movement-compensation diagnostic. Family includes Pole Long Dodge Apex (11,190 entries). https://kovaaks.com/kovaaks/scenarios?scenarioName=Pole%20Long%20Dodge
+- `Pole long dodge extra thin`: 5,946 entries, Tracking, by Face Height Frame, published 5/5/2020. Same as Pole Long Dodge but extra-thin target. Drift is immediately visible — if the crosshair is off by even a little, you miss. ACC ~97-98% at top. **Best diagnostic for movement compensation deficit:** stationary thin target + player strafe = pure player-movement drift isolation. https://kovaaks.com/kovaaks/scenarios?scenarioName=Pole%20long%20dodge%20extra%20thin
+- `Pole Long Dodge xThin`: 747 entries, Tracking, by DefectiveDNA, published 12/6/2020. Extremely thin target. Even harder precision demand. ACC ~98% at top. https://kovaaks.com/kovaaks/scenarios?scenarioName=Pole%20Long%20Dodge%20xThin
+- `Pole Long Dodge OW`: 4,566 entries, Tracking. OW physics movement. Stationary target + OW player movement. https://kovaaks.com/kovaaks/scenarios?scenarioName=Pole%20Long%20Dodge%20OW
+- `Pole Long Dodge OW Thin`: 358 entries, Tracking. OW physics + thin target. Movement compensation + precision at OW movement physics. https://kovaaks.com/kovaaks/scenarios?scenarioName=Pole%20Long%20Dodge%20OW%20Thin
+- `Pole Long Dodge Tracer`: 160 entries, Tracking. Tracer-specific movement. https://kovaaks.com/kovaaks/scenarios?scenarioName=Pole%20Long%20Dodge%20Tracer
+
+**Revolving Tracking family (forced circular movement + tracking — sustained movement compensation):**
+
+- `Revolving Tracking`: 190,678 entries, Tracking, by KovaaK, published 12/12/2023. Description: "Improve tracking while revolving like a heli gunner." Forced circular movement around a target. Tests sustained movement compensation in a circular pattern — movement direction is always changing, so drift correction is always changing. Higher demand than linear strafing. https://kovaaks.com/kovaaks/scenarios?scenarioName=Revolving%20Tracking
+- `Revolving Tracking Thin`: 30,178 entries, Tracking. Thin target + revolving. Movement compensation + precision. https://kovaaks.com/kovaaks/scenarios?scenarioName=Revolving%20Tracking%20Thin
+- `Revolving Tracking Extra Thin`: 7,531 entries, Tracking. Extra-thin + revolving. Highest movement-compensation + precision demand in the family. https://kovaaks.com/kovaaks/scenarios?scenarioName=Revolving%20Tracking%20Extra%20Thin
+- `Revolving Tracking 180 Super Easy`: 1,532 entries, Tracking. Super-easy + 180° arc. The easiest revolving variant — start here if revolving is too hard. https://kovaaks.com/kovaaks/scenarios?scenarioName=Revolving%20Tracking%20180%20Super%20Easy
+
+**Diagnostic order (when needed):** Pole Long Dodge extra thin (isolate linear movement drift) → Pole Long Dodge OW Thin (OW movement physics) → Revolving Tracking Thin (sustained circular compensation) → Revolving Tracking Extra Thin (highest demand). The Pole family isolates linear drift first; the Revolving family adds sustained circular compensation.
+
 Files: All 7 playlists in D:\SteamLibrary\steamapps\common\FPSAimTrainer\FPSAimTrainer\Saved\SaveGames\Playlists\ with prefix HermesAimCoach_Skill1-7_*.json. Old 5-skill files deleted.
 
 ## Not yet confirmed through an official listing
